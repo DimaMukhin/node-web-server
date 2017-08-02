@@ -25,9 +25,9 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use((req, res, next) => {
-  res.render('maintenance.hbs');
-});
+// app.use((req, res, next) => {
+//   res.render('maintenance.hbs');
+// });
 
 // using middleware with express
 app.use(express.static(__dirname + '/public'));
